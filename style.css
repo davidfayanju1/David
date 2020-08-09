@@ -1,0 +1,100 @@
+*{
+    margin:0;
+    padding:0;
+}
+@font-face{
+    src:url(PaytoneOne-Regular.ttf);
+    font-family: Paytone One;
+}
+
+body{
+    font-family:Paytone One;
+    text-align: center;
+}
+
+.image{
+    margin-top: 20px;
+    height:40px;
+    cursor: pointer;
+}
+.first{
+    width:1190px;
+    padding:40px;
+    margin-left: 40px;
+    margin-top: 190px;
+    background-color:#d3d3d3;
+    border: black 1px solid;
+}
+
+.second{
+    text-align: left;
+    margin-left: 40px;
+    margin-top: 40px;
+    background-color: antiquewhite;
+    width:560px;
+    padding: 40px;
+    border: black 1px solid;
+    float: left;
+    cursor: pointer;
+    line-height: 27px;
+}
+
+.third{
+    margin-top: 40px;
+    margin-right: 40px;
+    border:black 1px solid;
+    float:right;
+    padding: 40px;
+    padding-bottom: 120px;
+    text-align: right;
+    background-color: aquamarine;
+    width:540px;
+    margin-bottom: 190px;
+    cursor: pointer;
+    line-height: 27px;
+}
+
+@media(max-width:768px){
+    .second{
+        width:430px;
+        padding-left: 54px;
+        margin-left: 2px;    
+    }
+
+    .third{
+        position: relative;
+        width:400px;
+        margin-right: 2px;
+        padding:61.3px;
+    }
+
+    .first{
+        width:465px;
+        padding:30px;
+        margin-left: 1px;
+        margin-top: 190px;
+    }
+}
+
+
+@media(max-width:980px){
+    .second{
+        width:525px;
+        padding-left: 54px;
+        margin-left: 2px;    
+    }
+
+    .third{
+        position: relative;
+        width:495px;
+        margin-right: 1px;
+        padding:61.3px;
+    }
+
+    .first{
+        width:560px;
+        padding:30px;
+        margin-left: 1px;
+        margin-top: 190px;
+    }
+}
